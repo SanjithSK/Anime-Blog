@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.website {
+  color: rgb(255, 255, 255);
+  background-color: rgb(90, 83, 83);
+  margin-bottom: 50px;
+  padding: 20px 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main_header {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-decoration: dotted;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 50px;
+  position: relative;
+}
+
+.related_buttons {
+  margin-top: 10px;
+}
+
+.related_header {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline white;
+  font-family: sans-serif;
+}
+
+.related_link:link {
+  color: white;
+  text-decoration: underline white;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.related_link:hover {
+  color: white;
+  text-decoration: underline white;
+}
+
+.gmail {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.whatsapp {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.twitter {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gmail:hover {
+  background-color: black;
+  color: white;
+}
+
+.twitter:hover {
+  background-color: black;
+  color: white;
+}
+
+.whatsapp:hover {
+  background-color: black;
+  color: white;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.five {
+  margin-bottom: 20px;
+}
+
+.four {
+  margin-bottom: 20px;
+}
+
+.three {
+  margin-bottom: 20px;
+}
+
+.two {
+  margin-bottom: 20px;
+}
+
+.one {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+p {
+  width: auto;
+}
+
+.like {
+  cursor: pointer;
+  position: absolute;
+  bottom: -20px;
+  right: -53px;
+  padding: 10px;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+.imp::after {
+  content: "By SK";
+  color: black;
+  background-color: blanchedalmond;
+  padding: 5px;
+  position: absolute;
+  font-size: 15px;
+  top: -35px;
+  right: -5px;
+  font-family: sans-serif;
+  size: 5px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #0000ff;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.squares {
+  position: absolute;
+  top: -716px;
+  right: 615px;
+}
+
+article {
+  position: relative;
+}
